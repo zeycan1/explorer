@@ -1,6 +1,6 @@
 <div align="center">
 
-![Ping Wallet](./public/logo.svg)
+![Ping Wallet](.https://resimlink.com/CrcHJ6Ez)
 
 <h1>Ping Dashboard</h1>
 
