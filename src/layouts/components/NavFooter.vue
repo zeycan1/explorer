@@ -14,7 +14,7 @@
         href="ZeycaNode"
         target="_blank"
         rel="noopener noreferrer"
-        >Ping.pub</a
+        >ZeycaNode</a
       >
     </div>
     <div
