@@ -11,7 +11,7 @@
       By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://ping.pub"
+        href="ZeycaNode"
         target="_blank"
         rel="noopener noreferrer"
         >Ping.pub</a
