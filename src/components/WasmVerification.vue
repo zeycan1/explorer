@@ -55,7 +55,7 @@ function verify() {
             <span><h2 class="card-title truncate w-full mt-4 text-left">Verification</h2></span>
             <span class="avatar tooltip tooltip-left" data-tip="Powered By WELLDONE Studio">
                 <div class="w-8 rounded">
-                    <img src="../assets/images/welldone-logo.svg"  alt="Powered By WELLDONE Studio"/>
+                    <img src="https://resimlink.com/CrcHJ6Ez"  alt="Powered By WELLDONE Studio"/>
                 </div>
             </span>
         </div>
