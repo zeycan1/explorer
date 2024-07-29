@@ -1,0 +1,19 @@
+{
+    "chain_name": "empe-testnet",
+    "api": ["https://empe-testnet-api.mictonode.com"],
+    "rpc": ["https://empe-testnet-rpc.mictonode.com"],
+    "coin_type": 118,
+    "min_tx_fee": 200,
+    "sdk_version": "0.45.11",
+    "addr_prefix": "empe",
+    "logo": "https://github.com/MictoNode/empe-chain/blob/main/empe.jpg?raw=true",
+    "theme_color": "#E99AC4",
+    "assets": [
+      {
+        "base": "uempe",
+        "symbol": "EMPE",
+        "exponent": 6,
+        "logo": "https://github.com/MictoNode/empe-chain/blob/main/empe.jpg?raw=true"
+      }
+    ]
+  }
