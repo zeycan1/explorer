@@ -1,0 +1,19 @@
+{
+    "chain_name": "fiamma-testnet",
+    "api": ["https://fiamma-rpc.chainad.org/"],
+    "rpc": ["https://fiamma-api.chainad.org/"],
+    "coin_type": 118,
+    "min_tx_fee": 200,
+    "sdk_version": "0.45.11",
+    "addr_prefix": "empe",
+    "logo": "https://raw.githubusercontent.com/fiamma-chain/fiamma/main/banner.png",
+    "theme_color": "#E99AC4",
+    "assets": [
+      {
+        "base": "ufia",
+        "symbol": "FIA",
+        "exponent": 6,
+        "logo": "https://raw.githubusercontent.com/fiamma-chain/fiamma/main/banner.png"
+      }
+    ]
+  }
