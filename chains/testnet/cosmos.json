@@ -1,8 +1,8 @@
 {
     "chain_name": "cosmoshub",
     "coingecko": "",
-    "api": ["https://cosmoshub-testnet-api.itrocket.net"],
-    "rpc": ["https://cosmoshub-testnet-rpc.itrocket.net"],
+    "api": ["https://cosmos-testnet-api.itrocket.net"],
+    "rpc": ["https://cosmos-testnet-rpc.itrocket.net"],
     "snapshot_provider": "",
     "sdk_version": "v0.50.9-lsm",
     "coin_type": "118",
