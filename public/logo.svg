@@ -1,1 +1,14 @@
-
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Arkaplan Dairesi -->
+  <circle cx="80" cy="80" r="75" fill="#6D28D9"/>
+  
+  <!-- Zincir Simgesi (Blockchain Temsili) -->
+  <path d="M60 90 L40 80 L60 70 L80 80 L100 70 L120 80 L100 90 L80 80" 
+        stroke="white" stroke-width="5" fill="none"/>
+  
+  <!-- Metin -->
+  <text x="80" y="130" font-family="Arial" font-size="18" 
+        text-anchor="middle" fill="white" font-weight="bold">
+    ZeycaNode
+  </text>
+</svg>
