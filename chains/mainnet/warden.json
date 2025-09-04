@@ -1,6 +1,6 @@
 {
   "chain_name": "warden",
-  "api": ["https://warden-testnet-api.zeycanode.com"],
+  "api": ["https://api.chiado.wardenprotocol.org/"],
   "rpc": ["https://warden-testnet-rpc.zeycanode.com"],
   "coin_type": 118,
   "min_tx_fee": 200,
