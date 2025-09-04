@@ -1,7 +1,7 @@
 {
   "chain_name": "warden",
-  "api": ["https://warden-testnet-api.itrocket.net"],
-  "rpc": ["https://warden-testnet-rpc.itrocket.net"],
+  "api": ["https://warden-testnet-rpc.zeycanode.com"],
+  "rpc": ["https://warden-testnet-rpc.zeycanode.com"],
   "coin_type": 118,
   "min_tx_fee": 200,
   "sdk_version": "0.45.11",
