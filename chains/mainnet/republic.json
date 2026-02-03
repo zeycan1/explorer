@@ -1,14 +1,10 @@
 {
-  "chain_name": "republic",
-  "api": [
-    "https://republic-api.zeycanode.com"
-  ],
-  "rpc": [
-    "https://republic-rpc.zeycanode.com"
-  ],
+  "chain_name": "republic-testnet",
+  "api": ["https://republic-api.zeycanode.com"],
+  "rpc": ["https://republic-rpc.zeycanode.com"],
   "coin_type": 118,
   "min_tx_fee": 250000000,
-  "sdk_version": "v0.50.x-republic",
+  "sdk_version": "v0.53.x",
   "addr_prefix": "rai",
   "logo": "/logos/republic.png",
   "assets": [
