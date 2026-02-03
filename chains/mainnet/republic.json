@@ -16,7 +16,7 @@
     "coin_type": "60",
     "min_tx_fee": "4000",
     "addr_prefix": "rai",
-    "logo": "/logo/republic.avif",
+    "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/refs/heads/main/logos/539970918-65d091ad-2604-44eb-aae0-f59fe63309f5.png",
     "keplr_features": [
         "eth-address-gen",
         "eth-key-sign"
@@ -27,7 +27,7 @@
             "symbol": "RAI",
             "exponent": "18",
             "coingecko_id": "",
-            "logo": "/logo/republic.avif"
+            "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/refs/heads/main/logos/539970918-65d091ad-2604-44eb-aae0-f59fe63309f5.png"
         }
     ]
 }
