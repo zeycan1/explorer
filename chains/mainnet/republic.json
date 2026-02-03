@@ -1,16 +1,40 @@
 {
-    "chain_name": "Republic",
-    "api": ["https://republic-api.zeycanode.com"],
-    "rpc": ["https://republic-rpc.zeycanode.com"],
-    "sdk_version": "v0.50.8",
-    "coin_type": "118",
-    "min_tx_fee": "500",
+    "chain_name": "Republic-Testnet",
+    "api": [
+        "https://republic-api.zeycanode.com",
+        "https://api-t.republic.vinjan-inc.com",
+        "https://republic-testnet-api.mictonode.com",
+        "https://republic-test-api.corenodehq.xyz"
+    ],
+    "rpc": [
+        "https://republic-rpc.zeycanode.com",
+        "https://rpc-t.republic.vinjan-inc.com",
+        "https://republic-testnet-rpc.mictonode.com",
+        "https://republic-test-rpc.corenodehq.xyz"
+    ],
+    "sdk_version": "v0.53.5-0.20251030204916-768cb210885c",
+    "coin_type": "60",
+    "min_tx_fee": "4000",
     "addr_prefix": "rai",
-    "logo": "/logos/republic.png",
-    "assets": [{
-        "base": "arai",
-        "symbol": "RAI",
-        "exponent": "6",
-        "logo": "/logos/republic.png",
-    }]
+    "logo": "/logo/republic.avif",
+    "keplr_features": [
+        "eth-address-gen",
+        "eth-key-sign"
+    ],
+    "assets": [
+        {
+            "base": "arai",
+            "symbol": "RAI",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "/logo/republic.avif"
+        }
+    ]
 }
+
+
+
+
+
+
+
