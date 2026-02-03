@@ -1,19 +1,18 @@
 {
   "chain_name": "republic",
-  "chain_id": "raitestnet_77701-2",
   "api": ["https://republic-api.zeycanode.com"],
   "rpc": ["https://republic-rpc.zeycanode.com"],
-  "coin_type": 60,
-  "min_tx_fee": "1000000000arai",
+  "coin_type": 118,
+  "min_tx_fee": 250000000,
   "sdk_version": "v0.53.x",
   "addr_prefix": "rai",
-  "logo": "https://raw.githubusercontent.com/RepublicAI/networks/main/testnet/logo.png",
+  "logo": "/logos/republic.png",
   "assets": [
     {
       "base": "arai",
       "symbol": "RAI",
       "exponent": 18,
-      "logo": "https://raw.githubusercontent.com/RepublicAI/networks/main/testnet/logo.png"
+      "logo": "/logos/republic.png"
     }
   ]
 }
