@@ -1,13 +1,11 @@
 {
     "chain_name": "Republic-Testnet",
     "api": [
-        "https://republic-api.zeycanode.com",
         "https://api-t.republic.vinjan-inc.com",
         "https://republic-testnet-api.mictonode.com",
         "https://republic-test-api.corenodehq.xyz"
     ],
     "rpc": [
-        "https://republic-rpc.zeycanode.com",
         "https://rpc-t.republic.vinjan-inc.com",
         "https://republic-testnet-rpc.mictonode.com",
         "https://republic-test-rpc.corenodehq.xyz"
