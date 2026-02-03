@@ -1,6 +1,5 @@
 {
-  "chain_name": "republic-testnet",
-  "chain_id": "raitestnet_77701-1",
+  "chain_name": "raitestnet_77701-1",
   "api": ["https://republic-api.zeycanode.com"],
   "rpc": ["https://republic-rpc.zeycanode.com"],
   "coin_type": 118,
