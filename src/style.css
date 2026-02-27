@@ -23,7 +23,6 @@ body {
   --text-main: #1a1a1a;
   --text-secondary: #4b525d;
   --bg-active: #f0fff4;
-  --accent-glow: rgba(0, 255, 136, 0.1);
 }
 
 html.dark,
@@ -31,13 +30,6 @@ html[data-theme='dark'] {
   --text-main: #e0ffe0;
   --text-secondary: #8b9dc3;
   --bg-active: #1a2332;
-  --accent-glow: rgba(0, 255, 136, 0.15);
-}
-
-/* Neon glow effect for primary elements */
-.btn-primary,
-.badge-primary {
-  box-shadow: 0 0 10px rgba(0, 255, 136, 0.3);
 }
 
 .table th:first-child {
@@ -58,13 +50,4 @@ html[data-theme='dark'] {
 .slide-up-leave-to {
   opacity: 0;
   transform: translateY(-calc(15%));
-}
-
-/* Optional: Add subtle grid pattern to dark mode */
-html.dark body {
-  background-image: 
-    linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
-  background-size: 50px 50px;
-}lc(15%));
 }
