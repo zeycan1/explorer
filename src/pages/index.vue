@@ -46,43 +46,11 @@ const chainStore = useBlockchain();
 
 <template>
   <div class="">
-    <div class="flex md:!flex-row flex-col items-center justify-center mb-6 mt-14 gap-2">
-      <div class="flex items-center gap-4 justify-center">
-        <img src="/zeyca-logo.svg" alt="ZeycaNode" class="w-16 h-16 md:w-24 md:h-24" />
-        <h1 class="text-black dark:text-white text-3xl md:!text-6xl font-bold">
-          {{ $t('pages.title') }}
-        </h1>
-      </div>
+    <div class="flex flex-col items-center justify-center mb-6 mt-14 gap-6">
+      <img src="/zeyca-logo.svg" alt="ZeycaNode" class="w-32 h-32 md:w-48 md:h-48" />
+      <h1 class="text-black dark:text-white text-3xl md:!text-6xl font-bold">
+        {{ $t('pages.title') }}
+      </h1>
     </div>
 
     <div v-if="dashboard.status !== LoadingStatus.Loaded" class="flex justify-center">
-      <progress class="progress progress-info w-80 h-1"></progress>
-    </div>
-
-    <div v-if="featured.length > 0" class="text-center text-base mt-6 text-primary">
-      <h2 class="mb-6">We monitor your networks for you :)</h2>
-    </div>
-
-    <div v-if="featured.length > 0" class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5">
-      <ChainSummary v-for="(chain, index) in featured" :key="index" :name="chain.chainName" />
-    </div>
-
-    <div class="flex items-center rounded-lg bg-base-100 border border-gray-200 dark:border-gray-700 mt-10">
-      <Icon icon="mdi:magnify" class="text-2xl text-gray-400 ml-3" />
-      <input :placeholder="$t('pages.search_placeholder')" class="px-4 h-10 bg-transparent flex-1 outline-none text-base" v-model="keywords" />
-      <div class="px-4 text-base hidden md:!block">
-        {{ chains.length }}/{{ dashboard.length }}
-      </div>
-    </div>
-
-    <div class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5">
-      <ChainSummary v-for="(chain, index) in chains" :key="index" :name="chain.chainName" />
-    </div>
-  </div>
-</template>
-
-<style scoped>
-.logo path {
-  fill: #0f1419;
-}
-</style>
