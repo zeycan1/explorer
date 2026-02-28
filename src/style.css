@@ -59,6 +59,23 @@ html.dark a[class*="bg-base-100"][class*="rounded"][class*="shadow"] * {
   color: #ffffff !important;
 }
 
+/* Validator names and links - GREEN */
+html.dark table td a,
+html.dark .table td a,
+html.dark table td .link,
+html.dark .table td .link {
+  color: #00D100 !important;
+}
+
+/* Delegate button text - GREEN */
+html.dark button[class*="delegate"] *,
+html.dark label[for="delegate"] *,
+html.dark .btn-info *,
+html.dark button.btn-info,
+html.dark label.btn-info {
+  color: #00D100 !important;
+}
+
 /* Specific chain card containers */
 html.dark .grid.grid-cols-1 > div,
 html.dark .grid.md\:grid-cols-3 > div,
