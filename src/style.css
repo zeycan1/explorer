@@ -20,51 +20,83 @@ body {
 }
 
 :root {
-  --text-main: #000000;
-  --text-secondary: #6b7280;
-  --bg-active: #f5f5f5;
+  --text-main: #000000 !important;
+  --text-secondary: #6b7280 !important;
+  --bg-active: #f5f5f5 !important;
+  /* Force override primary color */
+  --fallback-p: #000000 !important;
+  --p: #000000 !important;
 }
 
 html.dark,
 html[data-theme='dark'] {
-  --text-main: #ffffff;
-  --text-secondary: #9ca3af;
-  --bg-active: #171717;
-}
-
-/* Minimalist borders */
-.table th:first-child {
-  position: relative;
-  z-index: 2;
+  --text-main: #ffffff !important;
+  --text-secondary: #9ca3af !important;
+  --bg-active: #171717 !important;
+  /* Force override primary color for dark mode */
+  --fallback-p: #ffffff !important;
+  --p: #ffffff !important;
 }
 
 /* Logo başlık stili */
 h1.text-2xl {
   font-weight: 700 !important;
   letter-spacing: -0.02em;
-}
-
-/* Override primary color for text and links */
-.text-primary,
-.link-primary {
   color: var(--text-main) !important;
 }
 
-html.dark .text-primary,
-html.dark .link-primary {
+/* ULTRA AGGRESSIVE: Kill ALL purple/primary colors */
+*[class*="text-primary"],
+*.text-primary,
+.link-primary,
+a.link-primary {
   color: var(--text-main) !important;
 }
 
-.btn-primary {
+html.dark *[class*="text-primary"],
+html.dark *.text-primary,
+html.dark .link-primary,
+html.dark a.link-primary {
+  color: var(--text-main) !important;
+}
+
+.btn-primary,
+button.btn-primary,
+label.btn-primary {
   background-color: var(--text-main) !important;
   border-color: var(--text-main) !important;
   color: var(--bg-active) !important;
 }
 
-html.dark .btn-primary {
+html.dark .btn-primary,
+html.dark button.btn-primary,
+html.dark label.btn-primary {
   background-color: var(--text-main) !important;
   border-color: var(--text-main) !important;
   color: var(--bg-active) !important;
+}
+
+/* Kill any inline purple colors */
+*[style*="color: rgb(102, 108, 255)"],
+*[style*="color: #666cff"],
+*[style*="color: purple"],
+*[style*="color: violet"],
+*[style*="666cff"] {
+  color: var(--text-main) !important;
+}
+
+/* Override DaisyUI primary color utilities */
+.bg-primary {
+  background-color: var(--text-main) !important;
+}
+
+.border-primary {
+  border-color: var(--text-main) !important;
+}
+
+.table th:first-child {
+  position: relative;
+  z-index: 2;
 }
 
 .slide-up-enter-active,
