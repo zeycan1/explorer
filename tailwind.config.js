@@ -5,15 +5,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        yes: '#00ff00',
-        no: '#ff3333',
-        info: '#00d4ff',
+        yes: '#ffffff',
+        no: '#000000',
+        info: '#6b7280',
         main: 'var(--text-main)',
         secondary: 'var(--text-secondary)',
         active: 'var(--bg-active)',
       },
       fontFamily: {
-        mono: ['JetBrains Mono', 'Monaco', 'Courier New', 'monospace'],
+        sans: ['JetBrains Mono', 'Monaco', 'Courier New', 'monospace'],
       }
     },
   },
@@ -23,36 +23,28 @@ module.exports = {
       {
         light: {
           ...require('daisyui/src/theming/themes')['[data-theme=light]'],
-          primary: '#00ff00',
-          secondary: '#00d4ff',
-          accent: '#9333ea',
-          'primary-content': '#000000',
+          primary: '#000000',
+          secondary: '#6b7280',
+          accent: '#d1d5db',
+          'base-100': '#ffffff',
+          'base-200': '#f9fafb',
+          'base-300': '#f3f4f6',
         },
       },
       {
         dark: {
           ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
-          primary: '#00ff00',
-          secondary: '#00d4ff',
-          accent: '#9333ea',
-          'base-100': '#050810',
-          'base-200': '#0d1117',
-          'base-300': '#151b23',
-          'primary-content': '#000000',
+          primary: '#ffffff',
+          secondary: '#9ca3af',
+          accent: '#374151',
+          'base-100': '#000000',
+          'base-200': '#0a0a0a',
+          'base-300': '#1a1a1a',
         },
       },
     ],
   },
 };
-
-
-
-
-
-
-
-
-
 
 
 
