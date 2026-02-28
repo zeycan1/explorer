@@ -32,10 +32,30 @@ html.dark,
 html[data-theme='dark'] {
   --text-main: #ffffff !important;
   --text-secondary: #9ca3af !important;
-  --bg-active: #171717 !important;
+  --bg-active: #1a1f26 !important;
   /* Force override primary color for dark mode */
   --fallback-p: #ffffff !important;
   --p: #ffffff !important;
+  /* FORCE background colors */
+  background-color: #0f1419 !important;
+}
+
+html.dark body,
+html[data-theme='dark'] body {
+  background-color: #0f1419 !important;
+}
+
+html.dark .bg-gray-100,
+html.dark .bg-base-100 {
+  background-color: #0f1419 !important;
+}
+
+html.dark .dark\:bg-\[\#171d30\] {
+  background-color: #0f1419 !important;
+}
+
+html.dark .dark\:bg-\[\#2a334c\] {
+  background-color: #0f1419 !important;
 }
 
 /* Logo başlık stili */
