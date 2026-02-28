@@ -54,3 +54,33 @@ const chainStore = useBlockchain();
     </div>
 
     <div v-if="dashboard.status !== LoadingStatus.Loaded" class="flex justify-center">
+      <progress class="progress progress-info w-80 h-1"></progress>
+    </div>
+
+    <div v-if="featured.length > 0" class="text-center text-base mt-6 text-primary">
+      <h2 class="mb-6">We monitor your networks for you :)</h2>
+    </div>
+
+    <div v-if="featured.length > 0" class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5">
+      <ChainSummary v-for="(chain, index) in featured" :key="index" :name="chain.chainName" />
+    </div>
+
+    <div class="flex items-center rounded-lg bg-base-100 border border-gray-200 dark:border-gray-700 mt-10">
+      <Icon icon="mdi:magnify" class="text-2xl text-gray-400 ml-3" />
+      <input :placeholder="$t('pages.search_placeholder')" class="px-4 h-10 bg-transparent flex-1 outline-none text-base" v-model="keywords" />
+      <div class="px-4 text-base hidden md:!block">
+        {{ chains.length }}/{{ dashboard.length }}
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5">
+      <ChainSummary v-for="(chain, index) in chains" :key="index" :name="chain.chainName" />
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.logo path {
+  fill: #0f1419;
+}
+</style>
