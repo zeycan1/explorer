@@ -26,9 +26,6 @@ module.exports = {
           primary: '#000000',
           secondary: '#6b7280',
           accent: '#d1d5db',
-          'base-100': '#ffffff',
-          'base-200': '#f9fafb',
-          'base-300': '#f3f4f6',
         },
       },
       {
@@ -37,25 +34,11 @@ module.exports = {
           primary: '#ffffff',
           secondary: '#9ca3af',
           accent: '#374151',
-          'base-100': '#000000',
-          'base-200': '#0a0a0a',
-          'base-300': '#1a1a1a',
         },
       },
     ],
   },
 };
-
-
-
-
-
-
-
-
-
-
-
 
 
 
