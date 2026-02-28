@@ -83,3 +83,22 @@ const chainStore = useBlockchain();
         v-model="keywords"
       />
       <div class="px-4 text-base hidden md:!block">
+        {{ chains.length }}/{{ dashboard.length }}
+      </div>
+    </div>
+    <div
+      class="grid grid-cols-1 gap-4 mt-6 md:!grid-cols-3 lg:!grid-cols-4 2xl:!grid-cols-5"
+    >
+      <ChainSummary
+        v-for="(chain, index) in chains"
+        :key="index"
+        :name="chain.chainName"
+      />
+    </div>
+  </div>
+</template>
+<style scoped>
+.logo path {
+  fill: #0f1419;
+}
+</style>
