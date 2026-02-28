@@ -44,11 +44,19 @@ html[data-theme='dark'] {
 html.dark a[class*="bg-base-100"][class*="rounded"][class*="shadow"],
 html.dark a.bg-base-100.rounded.shadow {
   background-color: #6f7275 !important;
+  color: #ffffff !important;
 }
 
 html.dark a[class*="bg-base-100"][class*="rounded"][class*="shadow"]:hover,
 html.dark a.bg-base-100.rounded.shadow:hover {
   background-color: #7f8285 !important;
+  color: #ffffff !important;
+}
+
+/* Chain card text elements */
+html.dark a.bg-base-100.rounded.shadow *,
+html.dark a[class*="bg-base-100"][class*="rounded"][class*="shadow"] * {
+  color: #ffffff !important;
 }
 
 /* Specific chain card containers */
