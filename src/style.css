@@ -44,6 +44,29 @@ h1.text-2xl {
   letter-spacing: -0.02em;
 }
 
+/* Override primary color for text and links */
+.text-primary,
+.link-primary {
+  color: var(--text-main) !important;
+}
+
+html.dark .text-primary,
+html.dark .link-primary {
+  color: var(--text-main) !important;
+}
+
+.btn-primary {
+  background-color: var(--text-main) !important;
+  border-color: var(--text-main) !important;
+  color: var(--bg-active) !important;
+}
+
+html.dark .btn-primary {
+  background-color: var(--text-main) !important;
+  border-color: var(--text-main) !important;
+  color: var(--bg-active) !important;
+}
+
 .slide-up-enter-active,
 .slide-up-leave-active {
   transition: all 0.25s ease-out;
