@@ -47,7 +47,7 @@ const chainStore = useBlockchain();
 <template>
   <div class="">
     <div class="flex flex-col items-center justify-center mb-6 mt-14 gap-6">
-      <img src="/zeyca-logo.svg" alt="ZeycaNode" class="w-32 h-32 md:w-48 md:h-48" />
+      <img src="/zeyca-logo.svg" alt="ZeycaNode" class="w-24 h-24 md:w-36 md:h-36" />
       <h1 class="text-black dark:text-white text-3xl md:!text-6xl font-bold">
         {{ $t('pages.title') }}
       </h1>
