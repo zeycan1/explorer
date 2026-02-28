@@ -76,6 +76,20 @@ html.dark label.btn-info {
   color: #00D100 !important;
 }
 
+/* Send button - BLACK text on white/yes background */
+html.dark label[for="send"],
+html.dark .btn.bg-yes,
+html.dark .btn.\!bg-yes,
+html.dark button[class*="bg-yes"] {
+  color: #000000 !important;
+}
+
+html.dark label[for="send"] *,
+html.dark .btn.bg-yes *,
+html.dark .btn.\!bg-yes * {
+  color: #000000 !important;
+}
+
 /* Specific chain card containers */
 html.dark .grid.grid-cols-1 > div,
 html.dark .grid.md\:grid-cols-3 > div,
