@@ -69,3 +69,17 @@ const chainStore = useBlockchain();
     >
       <ChainSummary
         v-for="(chain, index) in featured"
+        :key="index"
+        :name="chain.chainName"
+      />
+    </div>
+    <div
+      class="flex items-center rounded-lg bg-base-100 border border-gray-200 dark:border-gray-700 mt-10"
+    >
+      <Icon icon="mdi:magnify" class="text-2xl text-gray-400 ml-3" />
+      <input
+        :placeholder="$t('pages.search_placeholder')"
+        class="px-4 h-10 bg-transparent flex-1 outline-none text-base"
+        v-model="keywords"
+      />
+      <div class="px-4 text-base hidden md:!block">
