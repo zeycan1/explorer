@@ -77,6 +77,14 @@ html.dark .bg-base-100 {
   background-color: #0f1419 !important;
 }
 
+/* Sidebar background color */
+html.dark .w-64.fixed,
+html.dark div[class*="w-64"][class*="fixed"],
+html.dark aside,
+html.dark nav[class*="fixed"] {
+  background-color: #3e4246 !important;
+}
+
 html.dark .dark\:bg-\[\#171d30\] {
   background-color: #0f1419 !important;
 }
