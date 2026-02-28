@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        yes: '#00ff88',
-        no: '#ff5353',
-        info: '#0066ff',
+        yes: '#00ff00',
+        no: '#ff3333',
+        info: '#00d4ff',
         main: 'var(--text-main)',
         secondary: 'var(--text-secondary)',
         active: 'var(--bg-active)',
@@ -23,37 +23,27 @@ module.exports = {
       {
         light: {
           ...require('daisyui/src/theming/themes')['[data-theme=light]'],
-          primary: '#00ff88',
-          secondary: '#0066ff',
-          accent: '#7c3aed',
+          primary: '#00ff00',
+          secondary: '#00d4ff',
+          accent: '#9333ea',
+          'primary-content': '#000000',
         },
       },
       {
         dark: {
           ...require('daisyui/src/theming/themes')['[data-theme=dark]'],
-          primary: '#00ff88',
-          secondary: '#0066ff',
-          accent: '#7c3aed',
-          'base-100': '#0a0e1a',
-          'base-200': '#151923',
-          'base-300': '#1f2937',
+          primary: '#00ff00',
+          secondary: '#00d4ff',
+          accent: '#9333ea',
+          'base-100': '#050810',
+          'base-200': '#0d1117',
+          'base-300': '#151b23',
+          'primary-content': '#000000',
         },
       },
     ],
   },
 };
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
