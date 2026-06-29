@@ -1,5 +1,5 @@
 {
-  "chain_name": "Safrochain-Testnet",
+  "chain_name": "safrochain-Testnet",
   "chain_id": "safrochain-testnet-1",
   "api": ["https://rest.testnet.safrochain.com"],
   "rpc": ["https://rpc.testnet.safrochain.com"],
