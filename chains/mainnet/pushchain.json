@@ -1,0 +1,18 @@
+{
+  "chain_name": "pushchain",
+  "chain_id": "push_42101-1",
+  "api": ["https://evm.donut.rpc.push.org/"],
+  "rpc": ["https://evm.donut.rpc.push.org/"],
+  "sdk_version": "0.50.10",
+  "addr_prefix": "push",
+  "min_tx_fee": "0.000000001",
+  "logo": "https://github.com/user-attachments/assets/208cf03d-b8ec-4db7-9304-39107cb41465",
+  "assets": [
+    {
+      "symbol": "PC",
+      "base": "upc",
+      "exponent": 18,
+      "logo": "https://github.com/user-attachments/assets/208cf03d-b8ec-4db7-9304-39107cb41465"
+    }
+  ]
+}
