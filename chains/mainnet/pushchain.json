@@ -1,8 +1,8 @@
 {
   "chain_name": "pushchain",
   "chain_id": "push_42101-1",
-  "api": ["https://evm.donut.rpc.push.org/"],
-  "rpc": ["https://evm.donut.rpc.push.org/"],
+  "api": ["https://push-testnet-api.corenodehq.xyz/"],
+  "rpc": ["https://push-testnet-api.corenodehq.xyz/"],
   "sdk_version": "0.50.10",
   "addr_prefix": "push",
   "min_tx_fee": "0.000000001",
