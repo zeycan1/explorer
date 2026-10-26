@@ -14,7 +14,7 @@
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "worrell",
-    "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/refs/heads/main/logos/worrell.png",
+    "logo": "https://raw.githubusercontent.com/zeycan1/explorer/refs/heads/kurtarilan-explorer/public/logos/worrell.png",
     "keplr_features": [],
     "assets": [
         {
@@ -22,7 +22,7 @@
             "symbol": "WORRELL",
             "exponent": "6",
             "coingecko_id": "",
-            "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/refs/heads/main/logos/worrell.png"
+            "logo": "https://raw.githubusercontent.com/zeycan1/explorer/refs/heads/kurtarilan-explorer/public/logos/worrell.png"
         }
     ]
 }
