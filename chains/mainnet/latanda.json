@@ -1,0 +1,26 @@
+{
+  "chain_name": "LaTanda-Testnet",
+  "api": [
+    "https://t-latanda.api.utsa.tech",
+    "https://latanda.online/chain/api"
+  ],
+  "rpc": [
+    "https://t-latanda.rpc.utsa.tech",
+    "https://latanda.online/chain/rpc"
+  ],
+  "sdk_version": "v0.53.6",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "ltd",
+  "logo": "https://raw.githubusercontent.com/zeycan1/explorer/refs/heads/kurtarilan-explorer/public/logos/latanda.png",
+  "keplr_features": [],
+  "assets": [
+    {
+      "base": "ultd",
+      "symbol": "LTD",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "https://raw.githubusercontent.com/zeycan1/explorer/refs/heads/kurtarilan-explorer/public/logos/latanda.png"
+    }
+  ]
+}
