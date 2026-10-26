@@ -1,0 +1,28 @@
+{
+    "chain_name": "Worrell-Testnet",
+    "api": [
+        "https://api-worrell-t.sychonix.com",
+        "https://worrell.api.t.anode.team",
+        "https://worrell-testnet-api.itrocket.net"
+    ],
+    "rpc": [
+        "https://rpc-worrell-t.sychonix.com",
+        "https://worrel-testnet-rpc.oshvank.xyz",
+        "https://worrell-testnet-rpc.itrocket.net"
+    ],
+    "sdk_version": "v0.53.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "worrell",
+    "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/refs/heads/main/logos/worrell.png",
+    "keplr_features": [],
+    "assets": [
+        {
+            "base": "uworrell",
+            "symbol": "WORRELL",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "https://raw.githubusercontent.com/molla202/CoreNode-explorer/refs/heads/main/logos/worrell.png"
+        }
+    ]
+}
